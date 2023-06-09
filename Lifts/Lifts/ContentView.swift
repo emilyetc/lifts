@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Lifts
 //
-//  Created by Atulya Lohani on 6/9/23.
+//  Created by Emily Wang and Atulya Lohani on 6/9/23.
 //
 
 import SwiftUI
