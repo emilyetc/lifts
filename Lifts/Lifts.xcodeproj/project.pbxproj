@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C215F0732A38D40500FA67F6 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C215F0722A38D40500FA67F6 /* Main.swift */; };
+		C215F0772A38F95D00FA67F6 /* NewLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C215F0762A38F95D00FA67F6 /* NewLogView.swift */; };
+		C215F0792A38FA7400FA67F6 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C215F0782A38FA7400FA67F6 /* AppColors.swift */; };
 		C21FCC192A337A8B009EF558 /* LiftsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21FCC182A337A8B009EF558 /* LiftsApp.swift */; };
 		C21FCC1B2A337A8B009EF558 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21FCC1A2A337A8B009EF558 /* ContentView.swift */; };
 		C21FCC1D2A337A8D009EF558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21FCC1C2A337A8D009EF558 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		C215F0722A38D40500FA67F6 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		C215F0762A38F95D00FA67F6 /* NewLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLogView.swift; sourceTree = "<group>"; };
+		C215F0782A38FA7400FA67F6 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		C21FCC152A337A8B009EF558 /* Lifts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lifts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21FCC182A337A8B009EF558 /* LiftsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftsApp.swift; sourceTree = "<group>"; };
 		C21FCC1A2A337A8B009EF558 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 			children = (
 				C21FCC182A337A8B009EF558 /* LiftsApp.swift */,
 				C21FCC1A2A337A8B009EF558 /* ContentView.swift */,
+				C215F0782A38FA7400FA67F6 /* AppColors.swift */,
+				C215F0762A38F95D00FA67F6 /* NewLogView.swift */,
 				C215F0722A38D40500FA67F6 /* Main.swift */,
 				C21FCC1C2A337A8D009EF558 /* Assets.xcassets */,
 				C21FCC1E2A337A8D009EF558 /* Preview Content */,
@@ -262,6 +268,8 @@
 			files = (
 				C215F0732A38D40500FA67F6 /* Main.swift in Sources */,
 				C21FCC1B2A337A8B009EF558 /* ContentView.swift in Sources */,
+				C215F0772A38F95D00FA67F6 /* NewLogView.swift in Sources */,
+				C215F0792A38FA7400FA67F6 /* AppColors.swift in Sources */,
 				C21FCC192A337A8B009EF558 /* LiftsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

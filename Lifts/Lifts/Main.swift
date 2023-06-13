@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Main: View {
     var body: some View {
-        TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
+        TabView(selection: .constant(1)) {
             ContentView().tabItem { Label("Exercise", systemImage: "figure.walk") }.tag(1)
             Text("Tab Content 2").tabItem { Label("Food", systemImage: "fork.knife.circle") }.tag(2)
         }

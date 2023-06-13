@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    var colors = AppColors()
     var body: some View {
         NavigationView{
         VStack {
             HStack(){Text("Weclome").bold()
                 .padding()}
             VStack{
-                HStack(){Text("Create a new entry?").padding()}
+                HStack(){Text("Create a new entry?").padding().background(colors.cust_green).cornerRadius(10.0)}
+                
             }
            
             
