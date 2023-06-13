@@ -2,7 +2,7 @@
 //  LiftsUITestsLaunchTests.swift
 //  LiftsUITests
 //
-//  Created by Atulya Lohani on 6/9/23.
+//  Created by Emily Wang & Atulya Lohani on 6/9/23.
 //
 
 import XCTest

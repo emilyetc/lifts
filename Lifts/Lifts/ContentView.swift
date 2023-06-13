@@ -2,15 +2,25 @@
 //  ContentView.swift
 //  Lifts
 //
-//  Created by Emily Wang and Atulya Lohani on 6/9/23.
+//  Created by Emily Wang & Atulya Lohani on 6/9/23.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+        VStack {
+            HStack(){Text("Weclome").bold()
+                .padding()}
+            VStack{
+                HStack(){Text("Create a new entry?").padding()}
+            }
+           
+            
+        }
+        }
+        
     }
 }
 
