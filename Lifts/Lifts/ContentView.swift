@@ -8,21 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
-    var colors = AppColors()
+    
     var body: some View {
-        NavigationView{
-        VStack {
+        NavigationView(){
+        VStack() {
             HStack(){Text("Weclome").bold()
-                .padding()}
-            VStack{
-                HStack(){Text("Create a new entry?").padding().background(colors.cust_green).cornerRadius(10.0)}
-                
+                .padding()
+            }
+            VStack(){
+                HStack(){
+                    NavigationLink(
+                        destination: NewLogView()) {
+                        Text("Create new Entry")
+                 }.buttonStyle(CreateButton())}
             }
            
-            
         }
         }
         
+    }
+}
+struct CreateButton: ButtonStyle {
+    var colors = AppColors();
+    
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .padding()
+            .background(colors.cust_green)
+            .cornerRadius(14)
     }
 }
 

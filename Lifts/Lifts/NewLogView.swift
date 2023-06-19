@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct NewLogView: View {
+    @State private var exerciseOne = ""
+    @State private var date = Date()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+        Form{
+            Section(){
+                DatePicker("Date", selection: $date, displayedComponents: .date)
+            }
+            Section(header : Text("Add EXERCISES")){
+                TextField("Exercise 1", text: $exerciseOne)
+                
+            }.textFieldStyle(.roundedBorder)
+           
+        }.navigationTitle("Exercises")
+        }
     }
 }
 
