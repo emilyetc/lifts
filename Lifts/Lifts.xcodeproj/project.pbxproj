@@ -17,6 +17,8 @@
 		C21FCC2A2A337A8D009EF558 /* LiftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21FCC292A337A8D009EF558 /* LiftsTests.swift */; };
 		C21FCC342A337A8D009EF558 /* LiftsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21FCC332A337A8D009EF558 /* LiftsUITests.swift */; };
 		C21FCC362A337A8D009EF558 /* LiftsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21FCC352A337A8D009EF558 /* LiftsUITestsLaunchTests.swift */; };
+		C2AD6D8B2A42042800DB701D /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AD6D8A2A42042800DB701D /* Exercise.swift */; };
+		C2AD6D8D2A42067700DB701D /* ExerciseEntryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AD6D8C2A42067700DB701D /* ExerciseEntryStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		C21FCC2F2A337A8D009EF558 /* LiftsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiftsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21FCC332A337A8D009EF558 /* LiftsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftsUITests.swift; sourceTree = "<group>"; };
 		C21FCC352A337A8D009EF558 /* LiftsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C2AD6D8A2A42042800DB701D /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		C2AD6D8C2A42067700DB701D /* ExerciseEntryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseEntryStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 			children = (
 				C21FCC182A337A8B009EF558 /* LiftsApp.swift */,
 				C21FCC1A2A337A8B009EF558 /* ContentView.swift */,
+				C2AD6D8A2A42042800DB701D /* Exercise.swift */,
+				C2AD6D8C2A42067700DB701D /* ExerciseEntryStore.swift */,
 				C215F0782A38FA7400FA67F6 /* AppColors.swift */,
 				C215F0762A38F95D00FA67F6 /* NewLogView.swift */,
 				C215F0722A38D40500FA67F6 /* Main.swift */,
@@ -271,6 +277,8 @@
 				C215F0772A38F95D00FA67F6 /* NewLogView.swift in Sources */,
 				C215F0792A38FA7400FA67F6 /* AppColors.swift in Sources */,
 				C21FCC192A337A8B009EF558 /* LiftsApp.swift in Sources */,
+				C2AD6D8D2A42067700DB701D /* ExerciseEntryStore.swift in Sources */,
+				C2AD6D8B2A42042800DB701D /* Exercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
