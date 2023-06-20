@@ -28,7 +28,7 @@ struct ContentView: View {
             ScrollView {
                 VStack {
                     ForEach(exerciseData.exerciseDays) { exerciseDay in
-                        Text("\(exerciseDay.date)") // Display the date or other relevant information
+                        Text("\(exerciseDay.date)") // TODO: Display exercises and allow for detailed view
                     }
                 }
             }

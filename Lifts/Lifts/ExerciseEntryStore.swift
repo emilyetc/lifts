@@ -2,7 +2,7 @@
 //  ExerciseEntryStore.swift
 //  Lifts
 //
-//  Created by Atulya Lohani on 6/20/23.
+//  Created by Emily Wang & Atulya Lohani on 6/20/23.
 //
 
 import Foundation
