@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    @StateObject var exerciseData = ExerciseData()
     var body: some View {
         NavigationView(){
         VStack() {
@@ -21,10 +21,18 @@ struct ContentView: View {
                         destination: NewLogView()) {
                         Text("Create new Entry")
                  }.buttonStyle(CreateButton())}
-            }
+                
+            }.frame(maxWidth: .infinity).padding()
            
         }
-        }
+            ScrollView {
+                VStack {
+                    ForEach(exerciseData.exerciseDays) { exerciseDay in
+                        Text("\(exerciseDay.date)") // Display the date or other relevant information
+                    }
+                }
+            }
+        }.environmentObject(exerciseData)
         
     }
 }
@@ -41,6 +49,6 @@ struct CreateButton: ButtonStyle {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(ExerciseData())
     }
 }
